@@ -18,7 +18,7 @@ class String
     array = []
     count_sent = 0 
     array = self.split
-    array.each {|el| count_sent += 1 unless el.include?
+    array.each {|el| count_sent += 1 unless el.empty?
     count_sent += 1 unless  
     binding.pry
   end
