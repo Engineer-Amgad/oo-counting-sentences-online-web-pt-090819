@@ -19,5 +19,6 @@ class String
     count_sent = 0 
     array = self.split
     array.each {|el| count_sent += 1 unless el.empty?}
+    return count_sent
   end
 end
